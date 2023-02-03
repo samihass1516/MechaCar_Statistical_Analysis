@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-## Deliverable 1:
+## Linear Regression to Predict MPG
 ![Screenshot 2023-01-31 231042](https://user-images.githubusercontent.com/114379268/216389973-ceddc96d-29f9-433a-a4e0-b5434937750e.png)
 
 In the picture provided above, the variables/coefficients P-values Pr(>|t|):
@@ -27,3 +27,9 @@ The slope of the linear cant is zero because if we look at the chart or the resu
 •	Does this linear model predict the mpg of MechaCar prototypes effectively? Why or why not?
 
 According to the chart, the r squared is = 0.7149.  This means that approximately 71% of all mpg predictions that used linear models are considered accurate. 
+
+## Summary Statistics on Suspension Coils
+
+![Screenshot 2023-02-02 194144](https://user-images.githubusercontent.com/114379268/216491852-65c9fe0e-b1ee-4559-9062-0386d662b9c4.png)
+
+![Screenshot 2023-02-02 194807](https://user-images.githubusercontent.com/114379268/216491878-adc79da9-4a1d-4d0a-9cc4-4640f0957b04.png)
