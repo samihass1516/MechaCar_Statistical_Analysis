@@ -47,10 +47,25 @@ According to the chart, the r squared is = 0.7149.  This means that approximatel
   And in the lot_summary, if we look at lots 1, 2, and 3, the median and mean variances are very much the same and are all within the design specifications               requirements. Therefore, they meet these criteria.
   
   ## T-Tests on Suspension Coils
+  # T-Test on all manufacturing lots to determine PSI consistency:
+  
+ ![Screenshot 2023-02-02 195134](https://user-images.githubusercontent.com/114379268/216517610-48f99482-7bec-41e3-8a05-0927f5add702.png)
+ 
+   Based on the results, the p-value is 0.06028 which is higher than the signaficance level and indicates there is not enough evidence to reject the null hypothesis       and therefore statistically not significant.
+   
  ![Test for lot 1](https://user-images.githubusercontent.com/114379268/216514412-e51e694a-fd13-4494-8f8f-2ee6405415ba.png)
+ 
+ The P-value = 1, which is higher than 0.05 indicating that there is not enough evidence to reject the null hypothesis and therefore statistically not significant.
+ 
  ![Test for lot 2](https://user-images.githubusercontent.com/114379268/216514424-c79f9bf9-a592-4891-8859-894630e5bea6.png)
+ 
+ The P-value = 0.6072.  Indicating that there isnt enough evidence to reject the null hypothesis and therefore statistically not significant.
+ 
  ![Test for lot 3](https://user-images.githubusercontent.com/114379268/216514442-58ab908b-1093-4732-a396-5b5b322ed92f.png)
+ 
+ The last manufacturing lot, 3 has a higher negative t-value of -2.0916. However, the p-value of 0.04168 is lower than the significance level providing us with statistical significance and evidence to reject the null hypothesis.
 
 
 ## Study Design: MechaCar vs. Competition
-Another statistical study that can be performed to determine MechaCar's standing against its competition is a linear regression on city and highway fuel efficiency. Gas is costly these days, and people tend always to buy cars that are fuel efficient.  
+
+To compare MechCar and other competitors, we need to look at other data and statistics like Maintenance cost, city and highway fuel efficiency, horsepower, safety power, sound surround system, or safety rating. The following metrics to test should be the safety rating, horsepower, and highway fuel efficiency, which address some consumer safety concerns.  Fuel Efficiency is the most important thing for consumers now since gas prices are so high, and people are always looking for ways to lower their bills.  Finally, the null hypothesis is that the mean of the safety rating is zero. The alternative view is that the safety rating standard is not zero.  
